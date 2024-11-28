@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "GOD";
+    src: url(fuente/Berserker-Regular.otf);
+}
+
+body{
+    font-family: "GOD";
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    text-align: center;
+    line-height:1.6em;
+    min-width: 1200px;
+    }
+
+    #navega{    height: 160px;
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+    z-index: 2;
+    background-color: rgb(24, 24, 24, .9);
+
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+
+.menu, a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+.menu, a:link{
+    color:aliceblue;
+}
+.menu, a:visited{
+    color:aliceblue;
+}
+
+#todo{
+    z-index: 1;
+    position: relative;
+top: 200px;     } 
+
+#fondos{
+top: 200px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#fondo1, #fondo2, #fondo3, #fondo4{
+
+           z-index: -1;
+            opacity: 30%;    
+    }
+  
+    #fondo2, #fondo3, #fondo4{
+padding-top: 200px; 
+ }
+
+h1{
+        font-size: 4em;
+    }
+
+ul#enlaces, li#enlace{
+    margin: 50px;
+    list-style: none;
+
+}
+
+li#enlace{
+    border-radius: 20px;
+    background-color: rgba(176, 218, 255, 0.372);
+    padding: 20px;
+}
+
+
+
+nav{
+     display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.menu{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#caracteristicas, ul, li{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caracteristicas{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+h2{
+    font-size: 1.9em;
+}
+h3{
+    font-size: 1.4em;
+}
+.texto{
+    font-size: 1.3em;
+}
+
+
+footer, p{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie{
+    padding-top: 60px;
+}
+
+
+#encabezado {
+    
+    color: rgb(162, 134, 90);
+    background-color: rgba(129, 129, 129, 0.366);
+    border-radius: 20px;
+    font-size: 2.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    
+
+.fotos_linea_1{
+    margin-top: 50px;
+
+}    
+
+.fotos_personajes{
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+.fotos_personajes{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+button{
+    background-color: rgba(58, 58, 255, 0.815);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: "GOD";
+    font-size: large;
+    border-color: black;
+    border: outset black 4px;
+}
+
+#compra {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+ justify-content: center;
+ align-content: center;
+}
+#personajes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nombre_personajes{
+    font-size: 1.8em;
+}
+.portada{
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 5px 20px 5px #53535383; 
+box-shadow: 10px 5px 10px 5px #53535383;
+}
+
+img.icono{
+    padding-left: 20px;
+    padding-right: 20px;
+}

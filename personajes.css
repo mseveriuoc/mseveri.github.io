@@ -1,0 +1,57 @@
+
+#tabla_pers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+ justify-content: center;
+ align-content: center;
+}
+
+
+.desc_pers2, .desc_pers1{
+    padding-top: 10px;
+    width: 600px;
+}
+
+.desc_his1, .desc_his2{
+    padding-top: 100px;
+    width: 600px;
+}
+
+.texto_pers{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 1.3em;
+
+}
+.texto_pers2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 1.1em;
+
+}
+
+th#cabeza{
+    font-size: 3em;
+}
+th#cabeza2{
+    font-size: 2em;
+    font-family:"GOD";
+    padding-top: 30px;
+}
+.nombre_personajes{
+    font-size: 2em;
+    font-family: "GOD";
+}
+
+
+
+footer, p{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie{
+    padding-top: 60px;
+}
